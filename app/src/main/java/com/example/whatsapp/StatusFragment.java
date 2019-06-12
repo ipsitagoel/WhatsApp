@@ -10,15 +10,13 @@ import android.view.ViewGroup;
 public class StatusFragment extends Fragment {
 
 
-    public StatusFragment() {
-        // Required empty public constructor
-    }
+    public StatusFragment() { }
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment_status, container, false);
     }
 
